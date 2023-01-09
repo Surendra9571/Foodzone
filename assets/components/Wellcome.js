@@ -30,9 +30,9 @@ const Wellcome = ({navigation}) =>{
 
         </View>
         <View>
-        <View style={{justifyContent:"center",alignItems:"center",paddingVertical:50}}>
-      <TouchableOpacity onPress={navigation.navigate('Login')}>
-        <Text style={{width:400,fontSize:25,backgroundColor:"#fff",color:"black",borderRadius:10,width:100,paddingLeft:10}}>Stared </Text>
+        <View style={{alignItems:"center",margin:20}}>
+      <TouchableOpacity>
+        <Text style={{fontSize:16,backgroundColor:"#fff",color:"red",borderRadius:50,width:200,height:50,paddingLeft:45,paddingVertical:15}}> Get starteed</Text>
       </TouchableOpacity>
       </View>
         </View>
